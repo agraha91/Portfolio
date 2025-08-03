@@ -4,8 +4,8 @@
 
 
 ## Contact
-Phone: 404-960-0861
-Email: alyssa.lexy@gmail.com
+**Phone: **404-960-0861
+**Email:** alyssa.lexy@gmail.com
 
 ## Education
 

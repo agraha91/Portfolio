@@ -9,6 +9,15 @@
 
 ## Education
 
+**Master of Science:** Data Science
+**Bellevue University** - Bellevue, NE
+**Graduation Date** - Expected 08/25
+
+**Bachelor of Science:** Biology
+**Kennesaw State University** - Kennesaw, GA
+**Graduation Date** - 07/23
+Study Abroad: Belize, Marine Biology
+
 
 ## Work Experince
 Training Specialist Feb 2024 - Current
@@ -44,26 +53,28 @@ https://github.com/agraha91/TSA-Complaints-Analysis.git
 
 ### Uber Trip Analysis
 Analyzed Uber trip data to identify usage patterns, peak hours, and geographic trends using time series mapping tools.
+https://github.com/agraha91/Uber-Trip-Analysis.git
 
 
 ### Student Activity Involvement Affect on GPA
 Explored how extracurricular involvement correlates with academic performance using correlation analysis and regression techniques.
-
+https://github.com/agraha91/How-Student-Activities-Affect-GPA.git
 
 ### Amazon Customer Satisfaction 
 Analyzed customer review data to understand satisfaction drivers using sentiment analysis and classification models. 
-
+https://github.com/agraha91/Amazon-Customer-Satisfaction.git
 
 ### Kia/ Hyundai Theft Analysis
-Data analysis project using public records to explore geographic and temporal trends in vehicle thefts
-
+Data analysis project using public records to explore geographic and temporal trends in vehicle thefts.
+https://github.com/agraha91/Kia-Hyundai-Theft.git
 
 ### Crime Frequency Analysis
 Time series forecasting of city crime reports using Prophet and visualization libraries in Python and R
-
+https://github.com/agraha91/Crime-Frequency-Analysis.git
 
 ### Childcare Affordability
 Analyzed how childcare costs vary across US States and income levels, calculating affordability ratios to highlight regional an socioeconomic disparities.
+https://github.com/agraha91/Childcare-Affordability.githttps://github.com/agraha91/Childcare-Affordability.git
 
 
 

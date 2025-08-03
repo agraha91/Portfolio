@@ -1,7 +1,28 @@
 # Data Scientist
 
+## About
+
+
+## Contact
+Phone: 404-960-0861
+Email: alyssa.lexy@gmail.com
 
 ## Education
+
+
+## Work Experince
+Training Specialist Feb 2024 - Current
+Jeff Ellis Management – Orlando, FL
+• Evaluated training effectiveness using feedback surveys and assessments, making
+continuous improvements as needed.
+• Enhanced employee performance by developing and implementing comprehensive training
+programs.
+• Supported team development by providing constructive feedback to fellow lifeguards on
+performance improvements needed.
+• Implemented new training techniques that led to increased certification rates among course
+participants.
+• Contributed to a safer swimming environment by maintaining clean, organized, and
+hazard-free pool areas.
 
 
 ## Projects

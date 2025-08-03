@@ -10,28 +10,23 @@
 ## Education
 
 ### **Master of Science:** Data Science
-    **Bellevue University** - Bellevue, NE
-    **Graduation Date** - Expected 08/25
+    Bellevue University - Bellevue, NE
+    Graduation Date - Expected 08/25
 
 ### **Bachelor of Science:** Biology
-    **Kennesaw State University** - Kennesaw, GA
-    **Graduation Date** - 07/23
+    Kennesaw State University - Kennesaw, GA
+    Graduation Date - 07/23
     Study Abroad: Belize, Marine Biology
 
 
 ## Work Experince
 Training Specialist Feb 2024 - Current
 Jeff Ellis Management – Orlando, FL
-• Evaluated training effectiveness using feedback surveys and assessments, making
-continuous improvements as needed.
-• Enhanced employee performance by developing and implementing comprehensive training
-programs.
-• Supported team development by providing constructive feedback to fellow lifeguards on
-performance improvements needed.
-• Implemented new training techniques that led to increased certification rates among course
-participants.
-• Contributed to a safer swimming environment by maintaining clean, organized, and
-hazard-free pool areas.
+   • Evaluated training effectiveness using feedback surveys and assessments, making continuous improvements as needed.
+   • Enhanced employee performance by developing and implementing comprehensive training programs.
+   • Supported team development by providing constructive feedback to fellow lifeguards on performance improvements needed.
+   • Implemented new training techniques that led to increased certification rates among course participants.
+   • Contributed to a safer swimming environment by maintaining clean, organized, and hazard-free pool areas.
 
 
 ## Projects

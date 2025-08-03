@@ -4,19 +4,19 @@
 
 
 ## Contact
-**Phone: **404-960-0861
+**Phone:** 404-960-0861
 **Email:** alyssa.lexy@gmail.com
 
 ## Education
 
-**Master of Science:** Data Science
-**Bellevue University** - Bellevue, NE
-**Graduation Date** - Expected 08/25
+### **Master of Science:** Data Science
+    **Bellevue University** - Bellevue, NE
+    **Graduation Date** - Expected 08/25
 
-**Bachelor of Science:** Biology
-**Kennesaw State University** - Kennesaw, GA
-**Graduation Date** - 07/23
-Study Abroad: Belize, Marine Biology
+### **Bachelor of Science:** Biology
+    **Kennesaw State University** - Kennesaw, GA
+    **Graduation Date** - 07/23
+    Study Abroad: Belize, Marine Biology
 
 
 ## Work Experince

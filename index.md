@@ -1,49 +1,13 @@
 ---
-# Jekyll front matter makes this page processed by GitHub Pages
-# Keep the file name as `index.html` or rename to `index.md`
-# Cayman Theme is applied via `_config.yml`
 layout: default
-title: "Alyssa Graham · Data Scientist"
-description: "Portfolio of Alyssa Graham – Data Science projects, experience, and contact information."
+ title: "Alyssa Graham · Data Scientist"
+ description: "Portfolio of Alyssa Graham – Data Science projects, experience, and contact information."
 ---
 
-<style>
-/* Small overrides to add a resume button + tidy image on Cayman */
-.action-bar { display:flex; gap:12px; flex-wrap:wrap; margin: 12px 0 20px; }
-.action-bar .btn { padding:10px 14px; border-radius:8px; text-decoration:none; border:1px solid #d0d7de; }
-.action-bar .btn-primary { background:#2da44e; color:#fff; border-color:#2da44e; }
-.headshot { width:140px; height:140px; border-radius:50%; object-fit:cover; float:right; margin:0 0 12px 12px; border:1px solid #d0d7de; }
-.badge { display:inline-block; padding:4px 8px; border:1px solid #d0d7de; border-radius:999px; font-size:.85rem; margin-right:6px; margin-bottom:6px; }
-.project-list li{ margin-bottom:10px; }
-</style>
-
-<img src="assets/headshot.jpg" alt="Alyssa Graham headshot" class="headshot" />
-
-# Turning messy data into clear decisions
-
-*Machine learning · SQL · Python & R · EDA · Forecasting*
-
-<div class="action-bar">
-  <a class="btn btn-primary" href="assets/Alyssa_Graham_Resume.pdf">Download Résumé</a>
-  <a class="btn" href="mailto:alyssa.lexy@gmail.com">Email Me</a>
-  <a class="btn" href="https://github.com/agraha91">GitHub</a>
-</div>
-
-<span class="badge">Python (pandas, scikit-learn)</span>
-<span class="badge">SQL</span>
-<span class="badge">R / ggplot</span>
-<span class="badge">ML: RF · XGBoost · SVM</span>
-<span class="badge">Time series · Prophet</span>
-<span class="badge">Tableau/Power BI</span>
-
-## Highlights
-- Built predictive models for sales, placement outcomes, and crime trends.
-- Hands-on with clustering, model evaluation, and feature engineering.
-- Strong communicator—presentations, white papers, and dashboards.
-
-## Projects
+<!-- IMPORTANT: Use this file as index.md (Markdown), not index.html, so headings and lists render. -->
 
 <style>
+/* Card grid + small layout polish that works with Cayman */
 .projects-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; margin: 12px 0 24px; }
 .proj-card { background:#fff; border:1px solid #d0d7de; border-radius:14px; padding:16px; box-shadow: 0 4px 12px rgba(27,31,36,.06); }
 .proj-card h3 { margin:0 0 6px; font-size:1.1rem; }
@@ -53,120 +17,112 @@ description: "Portfolio of Alyssa Graham – Data Science projects, experience, 
 .proj-actions { display:flex; gap:10px; flex-wrap:wrap; }
 .proj-btn { padding:8px 10px; border:1px solid #d0d7de; border-radius:8px; text-decoration:none; font-weight:600; }
 .proj-btn.primary { background:#2da44e; color:#fff; border-color:#2da44e; }
+.action-bar { display:flex; gap:12px; flex-wrap:wrap; margin: 12px 0 20px; }
+.action-bar .btn { padding:10px 14px; border-radius:8px; text-decoration:none; border:1px solid #d0d7de; }
+.action-bar .btn-primary { background:#2da44e; color:#fff; border-color:#2da44e; }
+.headshot { width:140px; height:140px; border-radius:50%; object-fit:cover; float:right; margin:0 0 12px 12px; border:1px solid #d0d7de; }
+.badge { display:inline-block; padding:4px 8px; border:1px solid #d0d7de; border-radius:999px; font-size:.85rem; margin-right:6px; margin-bottom:6px; }
 </style>
+
+<img src="assets/headshot.jpg" alt="Alyssa Graham headshot" class="headshot" />
+
+# Alyssa Graham · Data Scientist
+
+Machine learning · SQL · Python & R · EDA · Forecasting
+
+<div class="action-bar">
+  <a class="btn btn-primary" href="assets/Alyssa_Graham_Resume.pdf">Download Résumé</a>
+  <a class="btn" href="mailto:alyssa.lexy@gmail.com">Email Me</a>
+  <a class="btn" href="https://github.com/agraha91">GitHub</a>
+</div>
+
+## Skills
+`Python (pandas, scikit-learn)` `SQL` `R / ggplot`  
+`ML: RF · XGBoost · SVM` `Time series · Prophet` `Tableau/Power BI`
+
+## Highlights
+- Built predictive models for sales, placement outcomes, and crime trends.
+- Hands-on with clustering, model evaluation, and feature engineering.
+- Strong communicator — presentations, white papers, and dashboards.
+
+## Projects
 
 <div class="projects-grid">
   <article class="proj-card">
     <h3><a href="https://github.com/agraha91/Remote-Work-Productivity-Project" target="_blank" rel="noopener">Remote Worker Analysis</a></h3>
     <p>Clustering & predictive modeling to identify productivity drivers (Linear Regression, Random Forest, K-Means).</p>
-    <div class="proj-tags">
-      <span class="proj-tag">Python</span><span class="proj-tag">ML</span>
-    </div>
-    <div class="proj-actions">
-      <a class="proj-btn primary" href="https://github.com/agraha91/Remote-Work-Productivity-Project">Code</a>
-    </div>
+    <div class="proj-tags"><span class="proj-tag">Python</span><span class="proj-tag">ML</span></div>
+    <div class="proj-actions"><a class="proj-btn primary" href="https://github.com/agraha91/Remote-Work-Productivity-Project">Code</a></div>
   </article>
-
   <article class="proj-card">
     <h3><a href="https://github.com/agraha91/College-Student-Job-Placement-Project" target="_blank" rel="noopener">College Placement Predictions</a></h3>
     <p>Classification (Decision Trees, SVM) with data balancing to forecast placement outcomes.</p>
     <div class="proj-tags"><span class="proj-tag">Classification</span><span class="proj-tag">SVM</span></div>
-    <div class="proj-actions">
-      <a class="proj-btn primary" href="https://github.com/agraha91/College-Student-Job-Placement-Project">Code</a>
-    </div>
+    <div class="proj-actions"><a class="proj-btn primary" href="https://github.com/agraha91/College-Student-Job-Placement-Project">Code</a></div>
   </article>
-
   <article class="proj-card">
     <h3><a href="https://github.com/agraha91/BMW-Sales-Project" target="_blank" rel="noopener">BMW Sales</a></h3>
     <p>Sales analysis, forecasting, and correlation insights; evaluated Linear Reg., Random Forest, and XGBoost.</p>
     <div class="proj-tags"><span class="proj-tag">Forecasting</span><span class="proj-tag">XGBoost</span></div>
-    <div class="proj-actions">
-      <a class="proj-btn primary" href="https://github.com/agraha91/BMW-Sales-Project">Code</a>
-    </div>
+    <div class="proj-actions"><a class="proj-btn primary" href="https://github.com/agraha91/BMW-Sales-Project">Code</a></div>
   </article>
-
   <article class="proj-card">
     <h3><a href="https://github.com/agraha91/TSA-Complaints-Analysis" target="_blank" rel="noopener">TSA Complaints</a></h3>
     <p>Complaint categories, time trends, and regional patterns with visual analytics.</p>
     <div class="proj-tags"><span class="proj-tag">EDA</span><span class="proj-tag">Visualization</span></div>
-    <div class="proj-actions">
-      <a class="proj-btn primary" href="https://github.com/agraha91/TSA-Complaints-Analysis">Code</a>
-    </div>
+    <div class="proj-actions"><a class="proj-btn primary" href="https://github.com/agraha91/TSA-Complaints-Analysis">Code</a></div>
   </article>
-
   <article class="proj-card">
     <h3><a href="https://github.com/agraha91/Uber-Trip-Analysis" target="_blank" rel="noopener">Uber Trip Analysis</a></h3>
     <p>Usage patterns, peak hours, and spatial trends using time series and mapping tools.</p>
     <div class="proj-tags"><span class="proj-tag">Time Series</span><span class="proj-tag">Geospatial</span></div>
-    <div class="proj-actions">
-      <a class="proj-btn primary" href="https://github.com/agraha91/Uber-Trip-Analysis">Code</a>
-    </div>
+    <div class="proj-actions"><a class="proj-btn primary" href="https://github.com/agraha91/Uber-Trip-Analysis">Code</a></div>
   </article>
-
   <article class="proj-card">
     <h3><a href="https://github.com/agraha91/How-Student-Activities-Affect-GPA" target="_blank" rel="noopener">Student Activities vs GPA</a></h3>
     <p>Correlation & regression to understand how extracurriculars relate to academic performance.</p>
     <div class="proj-tags"><span class="proj-tag">Regression</span><span class="proj-tag">EDA</span></div>
-    <div class="proj-actions">
-      <a class="proj-btn primary" href="https://github.com/agraha91/How-Student-Activities-Affect-GPA">Code</a>
-    </div>
+    <div class="proj-actions"><a class="proj-btn primary" href="https://github.com/agraha91/How-Student-Activities-Affect-GPA">Code</a></div>
   </article>
-
   <article class="proj-card">
     <h3><a href="https://github.com/agraha91/Amazon-Customer-Satisfaction" target="_blank" rel="noopener">Amazon Customer Satisfaction</a></h3>
     <p>Sentiment analysis & classification to identify drivers of customer satisfaction.</p>
     <div class="proj-tags"><span class="proj-tag">NLP</span><span class="proj-tag">Classification</span></div>
-    <div class="proj-actions">
-      <a class="proj-btn primary" href="https://github.com/agraha91/Amazon-Customer-Satisfaction">Code</a>
-    </div>
+    <div class="proj-actions"><a class="proj-btn primary" href="https://github.com/agraha91/Amazon-Customer-Satisfaction">Code</a></div>
   </article>
-
   <article class="proj-card">
     <h3><a href="https://github.com/agraha91/Kia-Hyundai-Theft" target="_blank" rel="noopener">Kia / Hyundai Theft</a></h3>
     <p>Public records analysis to explore geographic and temporal trends in thefts.</p>
     <div class="proj-tags"><span class="proj-tag">EDA</span><span class="proj-tag">Mapping</span></div>
-    <div class="proj-actions">
-      <a class="proj-btn primary" href="https://github.com/agraha91/Kia-Hyundai-Theft">Code</a>
-    </div>
+    <div class="proj-actions"><a class="proj-btn primary" href="https://github.com/agraha91/Kia-Hyundai-Theft">Code</a></div>
   </article>
-
   <article class="proj-card">
     <h3><a href="https://github.com/agraha91/Crime-Frequency-Analysis" target="_blank" rel="noopener">Crime Frequency Analysis</a></h3>
     <p>Time-series forecasting of city crime reports using Prophet in Python & R.</p>
     <div class="proj-tags"><span class="proj-tag">Prophet</span><span class="proj-tag">Forecasting</span></div>
-    <div class="proj-actions">
-      <a class="proj-btn primary" href="https://github.com/agraha91/Crime-Frequency-Analysis">Code</a>
-    </div>
+    <div class="proj-actions"><a class="proj-btn primary" href="https://github.com/agraha91/Crime-Frequency-Analysis">Code</a></div>
   </article>
-
   <article class="proj-card">
     <h3><a href="https://github.com/agraha91/Childcare-Affordability" target="_blank" rel="noopener">Childcare Affordability</a></h3>
     <p>Affordability ratios across states & income levels; highlights regional socioeconomic disparities.</p>
     <div class="proj-tags"><span class="proj-tag">Policy</span><span class="proj-tag">Visualization</span></div>
-    <div class="proj-actions">
-      <a class="proj-btn primary" href="https://github.com/agraha91/Childcare-Affordability">Code</a>
-    </div>
+    <div class="proj-actions"><a class="proj-btn primary" href="https://github.com/agraha91/Childcare-Affordability">Code</a></div>
   </article>
 </div>
 
 ## Experience
-**Training Specialist** · Jeff Ellis Management · Feb 2024 – Present · Orlando, FL
-
-- Evaluated training effectiveness and iterated on programs via surveys/assessments.
+**Training Specialist** · Jeff Ellis Management  
+_Feb 2024 – Present · Orlando, FL_
+- Evaluated training effectiveness and iterated on programs via surveys and assessments.
 - Implemented techniques that increased certification rates among participants.
 - Supported team development with actionable feedback and safety-first practices.
 
 ## Education
-- **M.S. Data Science** (Expected Aug 2025) – Bellevue University
-- **B.S. Biology** (Jul 2023) – Kennesaw State University · Study Abroad: Belize, Marine Biology
+- **M.S. Data Science** _(Expected Aug 2025)_ — Bellevue University
+- **B.S. Biology** _(Jul 2023)_ — Kennesaw State University  
+  Study Abroad: Belize, Marine Biology
 
----
-
-### Contact
+## Contact
 📧 **Email:** [alyssa.lexy@gmail.com](mailto:alyssa.lexy@gmail.com)  
 📱 **Phone:** 404‑960‑0861  
-🐙 **GitHub:** <https://github.com/agraha91>  
-
-<script>
-// no-op, keeps page self-contained
-</script>
+🐙 **GitHub:** <https://github.com/agraha91>

@@ -1,1 +1,5 @@
-
+git clone https://github.com/agraha91/Portfolio.git
+cd Portfolio
+git rm delete
+git commit -m "Delete file named delete so folder can be created"
+git push

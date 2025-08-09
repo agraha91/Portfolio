@@ -24,7 +24,7 @@ description: "Portfolio of Alyssa Graham – Data Science projects, experience, 
 .badge { display:inline-block; padding:4px 8px; border:1px solid #d0d7de; border-radius:999px; font-size:.85rem; margin-right:6px; margin-bottom:6px; }
 </style>
 
-<img src="assets/headshot.jpg" alt="Alyssa Graham headshot" class="headshot" />
+<img src="assets/headshot.jpg" alt="Alyssa Graham" style="width: 250px; height: 250px; border-radius: 50%; object-fit: cover;">
 
 # Alyssa Graham · Data Scientist
 

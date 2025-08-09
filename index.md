@@ -30,6 +30,19 @@ description: "Portfolio of Alyssa Graham – Data Science projects, experience, 
 
 Machine learning · SQL · Python & R · EDA · Forecasting
 
+<style>
+/* make non-primary buttons readable on white background */
+.action-bar .btn {
+  background:#fff;
+  color:#0969da;           /* readable link blue */
+  border:1px solid #d0d7de;
+}
+.action-bar .btn:hover { background:#f6f8fa; }
+.action-bar .btn-primary {
+  background:#2da44e; color:#fff; border-color:#2da44e;
+}
+</style>
+
 <div class="action-bar">
   <a class="btn btn-primary" href="assets/resume.pdf" target="_blank" rel="noopener">Download Résumé</a>
   <a class="btn" href="mailto:alyssa.lexy@gmail.com">Email Me</a>

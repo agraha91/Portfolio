@@ -43,7 +43,7 @@ Machine learning · SQL · Python & R · EDA · Forecasting
   <a class="btn btn-primary" href="assets/resume.pdf" target="_blank" rel="noopener">Download Résumé</a>
   <a class="btn" href="mailto:alyssa.lexy@gmail.com">Email Me</a>
   <a class="btn" href="https://github.com/agraha91" target="_blank" rel="noopener">GitHub</a>
-  <a class="btn" href="https://www.linkedin.com/in/alyssa-graham/" target="_blank" rel="noopener">LinkedIn</a>
+  <a class="btn" href="https://www.linkedin.com/in/alyssa-graham-/" target="_blank" rel="noopener">LinkedIn</a>
 </div>
 
 ## Skills

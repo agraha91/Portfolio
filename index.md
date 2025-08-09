@@ -7,7 +7,7 @@ description: "Portfolio of Alyssa Graham – Data Science projects, experience, 
 <!-- IMPORTANT: Use this file as index.md (Markdown), not index.html, so headings and lists render. -->
 
 <style>
-/* Card grid + small layout polish that works with Cayman */
+/* Card grid (unchanged) */
 .projects-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; margin: 12px 0 24px; }
 .proj-card { background:#fff; border:1px solid #d0d7de; border-radius:14px; padding:16px; box-shadow: 0 4px 12px rgba(27,31,36,.06); }
 .proj-card h3 { margin:0 0 6px; font-size:1.1rem; }
@@ -17,30 +17,27 @@ description: "Portfolio of Alyssa Graham – Data Science projects, experience, 
 .proj-actions { display:flex; gap:10px; flex-wrap:wrap; }
 .proj-btn { padding:8px 10px; border:1px solid #d0d7de; border-radius:8px; text-decoration:none; font-weight:600; }
 .proj-btn.primary { background:#2da44e; color:#fff; border-color:#2da44e; }
-.action-bar { display:flex; gap:12px; flex-wrap:wrap; margin: 12px 0 20px; }
-.action-bar .btn { padding:10px 14px; border-radius:8px; text-decoration:none; border:1px solid #d0d7de; }
-.action-bar .btn-primary { background:#2da44e; color:#fff; border-color:#2da44e; }
-.headshot { width:140px; height:140px; border-radius:50%; object-fit:cover; float:right; margin:0 0 12px 12px; border:1px solid #d0d7de; }
-.badge { display:inline-block; padding:4px 8px; border:1px solid #d0d7de; border-radius:999px; font-size:.85rem; margin-right:6px; margin-bottom:6px; }
+
+/* ACTION BAR — make non-primary buttons visible */
+.action-bar { display:flex; gap:12px; flex-wrap:wrap; margin:12px 0 20px; }
+.action-bar a.btn {
+  display:inline-block; padding:10px 14px; border-radius:8px;
+  border:1px solid #d0d7de; background:#fff !important;
+  color:#0969da !important; font-weight:600; text-decoration:none;
+}
+.action-bar a.btn:hover { background:#f6f8fa !important; }
+.action-bar a.btn.btn-primary {
+  background:#2da44e !important; color:#fff !important; border-color:#2da44e !important;
+}
+
+/* Headshot */
+.headshot, img[alt="Alyssa Graham"] { width: 250px; height: 250px; border-radius: 50%; object-fit: cover; }
 </style>
 
-<img src="assets/headshot.jpg" alt="Alyssa Graham" style="width: 250px; height: 250px; border-radius: 50%; object-fit: cover;">
 
 # Alyssa Graham · Data Scientist
 
 Machine learning · SQL · Python & R · EDA · Forecasting
-
-<style>
-.action-bar { display:flex; gap:12px; flex-wrap:wrap; margin:12px 0 20px; }
-.action-bar .btn {
-  display:inline-block; padding:10px 14px; border-radius:8px;
-  border:1px solid #d0d7de; background:#fff; color:#0969da; font-weight:600;
-  text-decoration:none;
-}
-.action-bar .btn:hover { background:#f6f8fa; }
-.action-bar .btn.btn-primary { background:#2da44e; color:#fff; border-color:#2da44e; }
-</style>
-
 
 <div class="action-bar">
   <a class="btn btn-primary" href="assets/resume.pdf" target="_blank" rel="noopener">Download Résumé</a>

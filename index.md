@@ -32,7 +32,7 @@ description: "Portfolio of Alyssa Graham – Data Science projects, experience, 
 
 <!-- Headshot -->
 <div style="display:flex;justify-content:center;margin:12px 0 8px;">
-  <img src="assets/headshot.jpg" alt="Alyssa Graham" class="headshot">
+  <img src="/assets/headshot.jpg" alt="Alyssa Graham" class="headshot">
 </div>
 
 

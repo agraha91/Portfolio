@@ -31,17 +31,16 @@ description: "Portfolio of Alyssa Graham – Data Science projects, experience, 
 Machine learning · SQL · Python & R · EDA · Forecasting
 
 <style>
-/* make non-primary buttons readable on white background */
+.action-bar { display:flex; gap:12px; flex-wrap:wrap; margin:12px 0 20px; }
 .action-bar .btn {
-  background:#fff;
-  color:#0969da;           /* readable link blue */
-  border:1px solid #d0d7de;
+  display:inline-block; padding:10px 14px; border-radius:8px;
+  border:1px solid #d0d7de; background:#fff; color:#0969da; font-weight:600;
+  text-decoration:none;
 }
 .action-bar .btn:hover { background:#f6f8fa; }
-.action-bar .btn-primary {
-  background:#2da44e; color:#fff; border-color:#2da44e;
-}
+.action-bar .btn.btn-primary { background:#2da44e; color:#fff; border-color:#2da44e; }
 </style>
+
 
 <div class="action-bar">
   <a class="btn btn-primary" href="assets/resume.pdf" target="_blank" rel="noopener">Download Résumé</a>
@@ -49,7 +48,6 @@ Machine learning · SQL · Python & R · EDA · Forecasting
   <a class="btn" href="https://github.com/agraha91" target="_blank" rel="noopener">GitHub</a>
   <a class="btn" href="https://www.linkedin.com/in/alyssa-graham/" target="_blank" rel="noopener">LinkedIn</a>
 </div>
-
 
 ## Skills
 `Python (pandas, scikit-learn)` `SQL` `R / ggplot`  

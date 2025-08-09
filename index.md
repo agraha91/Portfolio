@@ -31,9 +31,10 @@ description: "Portfolio of Alyssa Graham – Data Science projects, experience, 
 Machine learning · SQL · Python & R · EDA · Forecasting
 
 <div class="action-bar">
-  <a class="btn btn-primary" href="assets/Alyssa_Graham_Resume.pdf">Download Résumé</a>
+  <a class="btn btn-primary" href="assets/Alyssa_Graham_Resume.pdf" target="_blank">Download Résumé</a>
   <a class="btn" href="mailto:alyssa.lexy@gmail.com">Email Me</a>
-  <a class="btn" href="https://github.com/agraha91">GitHub</a>
+  <a class="btn" href="https://github.com/agraha91" target="_blank">GitHub</a>
+  <a class="btn" href="https://www.linkedin.com/in/alyssa-graham/" target="_blank">LinkedIn</a>
 </div>
 
 ## Skills

@@ -30,9 +30,11 @@ description: "Portfolio of Alyssa Graham – Data Science projects, experience, 
   background:#2da44e !important; color:#fff !important; border-color:#2da44e !important;
 }
 
-/* Headshot */
-.headshot, img[alt="Alyssa Graham"] { width: 250px; height: 250px; border-radius: 50%; object-fit: cover; }
-</style>
+<!-- Headshot -->
+<div style="display:flex;justify-content:center;margin:12px 0 8px;">
+  <img src="assets/headshot.jpg" alt="Alyssa Graham" class="headshot">
+</div>
+
 
 
 # Alyssa Graham · Data Scientist

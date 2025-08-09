@@ -3,17 +3,16 @@ layout: default
 title: "Alyssa Graham · Data Scientist"
 description: "Portfolio of Alyssa Graham – Data Science projects, experience, and contact information."
 ---
-
 <style>
-/* Buttons */
-.action-bar { display:flex; gap:12px; flex-wrap:wrap; margin:12px 0 20px; }
-.action-bar a.btn {
-  display:inline-block; padding:10px 14px; border-radius:8px;
-  border:1px solid #d0d7de; background:#fff !important;
-  color:#0969da !important; font-weight:600; text-decoration:none;
-}
-.action-bar a.btn:hover { background:#f6f8fa !important; }
-.action-bar a.btn.btn-primary { background:#2da44e !important; color:#fff !important; border-color:#2da44e !important; }
+.projects-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:18px; margin:12px 0 24px; }
+.proj-card { background:#fff; border:1px solid #d0d7de; border-radius:14px; padding:16px; box-shadow:0 4px 12px rgba(27,31,36,.06); }
+.proj-card h3 { margin:0 0 6px; font-size:1.1rem; }
+.proj-card p { margin:0 0 12px; color:#57606a; }
+.proj-tags { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:12px; }
+.proj-tag { display:inline-block; padding:4px 8px; border-radius:999px; border:1px solid #d0d7de; font-size:.8rem; }
+.proj-actions { display:flex; gap:10px; flex-wrap:wrap; }
+.proj-btn { padding:8px 10px; border:1px solid #d0d7de; border-radius:8px; text-decoration:none; font-weight:600; }
+.proj-btn.primary { background:#2da44e; color:#fff; border-color:#2da44e; }
 
 /* Headshot */
 .headshot { width: 260px; height: 260px; border-radius: 50%; object-fit: cover; display:block; margin: 12px auto 8px; }

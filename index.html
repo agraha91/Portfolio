@@ -1,197 +1,87 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Alyssa Graham · Data Scientist</title>
-  <meta name="description" content="Portfolio of Alyssa Graham – Data Science projects, experience, and contact information." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-  <style>
-    :root{
-      --bg:#0b0f14; --fg:#e9eef6; --muted:#a6b0c0; --card:#101722; --accent:#84cc16;
-      --chip:#18212f; --link:#8ab4ff; --border:#1d2634;
-    }
-    *{box-sizing:border-box}
-    html,body{margin:0;padding:0}
-    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:linear-gradient(180deg,#0a0e13, #0b1118 120%);color:var(--fg);}
-    a{color:var(--link);text-decoration:none}
-    a:hover{text-decoration:underline}
-    .wrap{max-width:1100px;margin:0 auto;padding:24px}
-    header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:8px 0 24px;border-bottom:1px solid var(--border)}
-    .brand{display:flex;align-items:center;gap:12px}
-    .logo{height:40px;width:40px;border-radius:12px;background:conic-gradient(from 180deg at 50% 50%,#223147, #2a3d57, #24344c);display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.25)}
-    .logo span{font-weight:800}
-    nav a{margin-left:18px;font-weight:600;color:var(--fg);opacity:.9}
-    nav a:hover{opacity:1}
-    .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center;padding:28px 0}
-    .hero .card{background:radial-gradient(1200px 600px at -20% -20%, rgba(132,204,22,.22), transparent 40%), var(--card); border:1px solid var(--border); border-radius:20px;padding:28px}
-    h1{font-size:clamp(28px,5vw,44px);line-height:1.1;margin:0 0 12px}
-    .subtitle{color:var(--muted);font-size:1.05rem;margin:0 0 14px}
-    .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
-    .chip{background:var(--chip);border:1px solid var(--border);padding:6px 10px;border-radius:999px;font-size:.9rem;color:var(--muted)}
-    .cta{display:flex;gap:12px;margin-top:16px}
-    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:12px;border:1px solid var(--border);background:#152032;color:var(--fg);font-weight:700}
-    .btn.primary{background:var(--accent);color:#08120a;border:none}
-    .panel{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:22px}
-    h2{margin:0 0 12px;font-size:1.4rem}
-    .grid{display:grid;gap:18px}
-    .grid.cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}
-    .proj{display:flex;flex-direction:column;gap:8px;padding:16px;border:1px solid var(--border);border-radius:16px;background:linear-gradient(180deg,#101928,#0f1723)}
-    .proj h3{margin:0;font-size:1.05rem}
-    .proj p{margin:0;color:var(--muted);font-size:.95rem}
-    .proj .tags{margin-top:6px;display:flex;flex-wrap:wrap;gap:6px}
-    footer{margin:48px 0 24px;color:var(--muted);text-align:center}
-    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-    @media (max-width:900px){
-      .hero{grid-template-columns:1fr}
-      .grid.cols-3{grid-template-columns:1fr}
-      .two-col{grid-template-columns:1fr}
-      nav{display:none}
-    }
-  </style>
-</head>
-<body>
-  <div class="wrap">
-    <header>
-      <div class="brand">
-        <div class="logo" aria-hidden="true"><span>AG</span></div>
-        <div>
-          <strong>Alyssa Graham</strong><div class="subtitle">Data Scientist</div>
-        </div>
-      </div>
-      <nav aria-label="Primary">
-        <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a>
-        <a href="#education">Education</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
+---
+# Jekyll front matter makes this page processed by GitHub Pages
+# Keep the file name as `index.html` or rename to `index.md`
+# Cayman Theme is applied via `_config.yml`
+layout: default
+title: "Alyssa Graham · Data Scientist"
+description: "Portfolio of Alyssa Graham – Data Science projects, experience, and contact information."
+---
 
-    <section class="hero">
-      <div class="card">
-        <h1>Turning messy data into clear decisions.</h1>
-        <p class="subtitle">Machine learning · SQL · Python & R · EDA · Forecasting. Interested in roles across analytics and data science.</p>
-        <div class="chips">
-          <span class="chip">Python (pandas, scikit-learn)</span>
-          <span class="chip">SQL</span>
-          <span class="chip">R / ggplot</span>
-          <span class="chip">ML: RF · XGBoost · SVM</span>
-          <span class="chip">Time series · Prophet</span>
-          <span class="chip">Tableau/Power BI</span>
-        </div>
-        <div class="cta">
-          <a class="btn primary" href="#projects">View Projects</a>
-          <a class="btn" href="mailto:alyssa.lexy@gmail.com">Email Me</a>
-        </div>
-      </div>
-      <div class="panel">
-        <h2>Highlights</h2>
-        <ul>
-          <li>Built predictive models for sales, placement outcomes, and crime trends.</li>
-          <li>Hands-on with clustering, model evaluation, and feature engineering.</li>
-          <li>Strong communicator—presentations, white papers, and dashboards.</li>
-        </ul>
-      </div>
-    </section>
+<style>
+/* Small overrides to add a resume button + tidy image on Cayman */
+.action-bar { display:flex; gap:12px; flex-wrap:wrap; margin: 12px 0 20px; }
+.action-bar .btn { padding:10px 14px; border-radius:8px; text-decoration:none; border:1px solid #d0d7de; }
+.action-bar .btn-primary { background:#2da44e; color:#fff; border-color:#2da44e; }
+.headshot { width:140px; height:140px; border-radius:50%; object-fit:cover; float:right; margin:0 0 12px 12px; border:1px solid #d0d7de; }
+.badge { display:inline-block; padding:4px 8px; border:1px solid #d0d7de; border-radius:999px; font-size:.85rem; margin-right:6px; margin-bottom:6px; }
+.project-list li{ margin-bottom:10px; }
+</style>
 
-    <section id="projects" class="grid cols-3" aria-labelledby="projects-title">
-      <h2 id="projects-title" style="grid-column:1/-1">Projects</h2>
+<img src="assets/headshot.jpg" alt="Alyssa Graham headshot" class="headshot" />
 
-      <article class="proj">
-        <h3><a href="https://github.com/agraha91/Remote-Work-Productivity-Project" target="_blank" rel="noopener">Remote Worker Analysis</a></h3>
-        <p>Clustering & predictive modeling to identify productivity drivers (Linear Regression, Random Forest, K-Means).</p>
-        <div class="tags"><span class="chip">Python</span><span class="chip">ML</span></div>
-      </article>
+# Turning messy data into clear decisions
 
-      <article class="proj">
-        <h3><a href="https://github.com/agraha91/College-Student-Job-Placement-Project" target="_blank" rel="noopener">College Placement Predictions</a></h3>
-        <p>Classification models (Decision Trees, SVM) with data balancing to forecast placement outcomes.</p>
-        <div class="tags"><span class="chip">Classification</span><span class="chip">SVM</span></div>
-      </article>
+*Machine learning · SQL · Python & R · EDA · Forecasting*
 
-      <article class="proj">
-        <h3><a href="https://github.com/agraha91/BMW-Sales-Project" target="_blank" rel="noopener">BMW Sales</a></h3>
-        <p>Sales analysis, forecasting, and correlation insights; evaluated Linear Reg., Random Forest, and XGBoost.</p>
-        <div class="tags"><span class="chip">Forecasting</span><span class="chip">XGBoost</span></div>
-      </article>
+<div class="action-bar">
+  <a class="btn btn-primary" href="assets/Alyssa_Graham_Resume.pdf">Download Résumé</a>
+  <a class="btn" href="mailto:alyssa.lexy@gmail.com">Email Me</a>
+  <a class="btn" href="https://github.com/agraha91">GitHub</a>
+</div>
 
-      <article class="proj">
-        <h3><a href="https://github.com/agraha91/TSA-Complaints-Analysis" target="_blank" rel="noopener">TSA Complaints</a></h3>
-        <p>Explored complaint categories, time trends, and regional patterns with visual analytics.</p>
-        <div class="tags"><span class="chip">EDA</span><span class="chip">Viz</span></div>
-      </article>
+<span class="badge">Python (pandas, scikit-learn)</span>
+<span class="badge">SQL</span>
+<span class="badge">R / ggplot</span>
+<span class="badge">ML: RF · XGBoost · SVM</span>
+<span class="badge">Time series · Prophet</span>
+<span class="badge">Tableau/Power BI</span>
 
-      <article class="proj">
-        <h3><a href="https://github.com/agraha91/Uber-Trip-Analysis" target="_blank" rel="noopener">Uber Trip Analysis</a></h3>
-        <p>Usage patterns, peak hours, and spatial trends using time series and mapping tools.</p>
-        <div class="tags"><span class="chip">Time Series</span><span class="chip">Geospatial</span></div>
-      </article>
+## Highlights
+- Built predictive models for sales, placement outcomes, and crime trends.
+- Hands-on with clustering, model evaluation, and feature engineering.
+- Strong communicator—presentations, white papers, and dashboards.
 
-      <article class="proj">
-        <h3><a href="https://github.com/agraha91/How-Student-Activities-Affect-GPA" target="_blank" rel="noopener">Student Activities vs GPA</a></h3>
-        <p>Correlation & regression to understand how extracurriculars relate to academic performance.</p>
-        <div class="tags"><span class="chip">Regression</span><span class="chip">EDA</span></div>
-      </article>
+## Projects
 
-      <article class="proj">
-        <h3><a href="https://github.com/agraha91/Amazon-Customer-Satisfaction" target="_blank" rel="noopener">Amazon Customer Satisfaction</a></h3>
-        <p>Sentiment analysis & classification to identify drivers of customer satisfaction.</p>
-        <div class="tags"><span class="chip">NLP</span><span class="chip">Classification</span></div>
-      </article>
+- **Remote Worker Analysis** — Clustering & predictive modeling to identify productivity drivers (Linear Regression, Random Forest, K-Means).  
+  <https://github.com/agraha91/Remote-Work-Productivity-Project>
+- **College Placement Predictions** — Classification (Decision Trees, SVM) with data balancing to forecast placement outcomes.  
+  <https://github.com/agraha91/College-Student-Job-Placement-Project>
+- **BMW Sales** — Sales analysis, forecasting, correlation insights; Linear Reg., Random Forest, and XGBoost.  
+  <https://github.com/agraha91/BMW-Sales-Project>
+- **TSA Complaints** — Complaint categories, time trends, and regional patterns with visual analytics.  
+  <https://github.com/agraha91/TSA-Complaints-Analysis>
+- **Uber Trip Analysis** — Usage patterns, peak hours, and spatial trends using time series and mapping tools.  
+  <https://github.com/agraha91/Uber-Trip-Analysis>
+- **Student Activities vs GPA** — Correlation & regression for extracurriculars vs academic performance.  
+  <https://github.com/agraha91/How-Student-Activities-Affect-GPA>
+- **Amazon Customer Satisfaction** — Sentiment analysis & classification to identify drivers of satisfaction.  
+  <https://github.com/agraha91/Amazon-Customer-Satisfaction>
+- **Kia / Hyundai Theft** — Public records analysis of geographic and temporal trends in thefts.  
+  <https://github.com/agraha91/Kia-Hyundai-Theft>
+- **Crime Frequency Analysis** — Time-series forecasting of city crime reports using Prophet in Python & R.  
+  <https://github.com/agraha91/Crime-Frequency-Analysis>
+- **Childcare Affordability** — Affordability ratios across states & income levels; socioeconomic disparities.  
+  <https://github.com/agraha91/Childcare-Affordability>
 
-      <article class="proj">
-        <h3><a href="https://github.com/agraha91/Kia-Hyundai-Theft" target="_blank" rel="noopener">Kia / Hyundai Theft</a></h3>
-        <p>Public records analysis to explore geographic and temporal trends in thefts.</p>
-        <div class="tags"><span class="chip">EDA</span><span class="chip">Mapping</span></div>
-      </article>
+## Experience
+**Training Specialist** · Jeff Ellis Management · Feb 2024 – Present · Orlando, FL
 
-      <article class="proj">
-        <h3><a href="https://github.com/agraha91/Crime-Frequency-Analysis" target="_blank" rel="noopener">Crime Frequency Analysis</a></h3>
-        <p>Time-series forecasting of city crime reports using Prophet in Python & R.</p>
-        <div class="tags"><span class="chip">Prophet</span><span class="chip">Forecasting</span></div>
-      </article>
+- Evaluated training effectiveness and iterated on programs via surveys/assessments.
+- Implemented techniques that increased certification rates among participants.
+- Supported team development with actionable feedback and safety-first practices.
 
-      <article class="proj" style="grid-column:1/-1">
-        <h3><a href="https://github.com/agraha91/Childcare-Affordability" target="_blank" rel="noopener">Childcare Affordability</a></h3>
-        <p>Affordability ratios across states & income levels; highlights regional socioeconomic disparities.</p>
-        <div class="tags"><span class="chip">Policy</span><span class="chip">Visualization</span></div>
-      </article>
-    </section>
+## Education
+- **M.S. Data Science** (Expected Aug 2025) – Bellevue University
+- **B.S. Biology** (Jul 2023) – Kennesaw State University · Study Abroad: Belize, Marine Biology
 
-    <section id="experience" class="two-col" aria-labelledby="exp-title" style="margin-top:28px">
-      <div class="panel">
-        <h2 id="exp-title">Experience</h2>
-        <p><strong>Training Specialist</strong> · Jeff Ellis Management · Feb 2024 – Present · Orlando, FL</p>
-        <ul>
-          <li>Evaluated training effectiveness and iterated on programs via surveys/assessments.</li>
-          <li>Implemented techniques that increased certification rates among participants.</li>
-          <li>Supported team development with actionable feedback and safety-first practices.</li>
-        </ul>
-      </div>
-      <div class="panel" id="education">
-        <h2>Education</h2>
-        <ul>
-          <li><strong>M.S. Data Science</strong> (Expected Aug 2025) – Bellevue University</li>
-          <li><strong>B.S. Biology</strong> (Jul 2023) – Kennesaw State University · Study Abroad: Belize, Marine Biology</li>
-        </ul>
-      </div>
-    </section>
+---
 
-    <section id="contact" class="panel" style="margin-top:18px">
-      <h2>Contact</h2>
-      <p>📧 <a href="mailto:alyssa.lexy@gmail.com">alyssa.lexy@gmail.com</a> · 📱 404‑960‑0861 · <a href="https://github.com/agraha91" target="_blank" rel="noopener">GitHub</a></p>
-    </section>
+### Contact
+📧 **Email:** [alyssa.lexy@gmail.com](mailto:alyssa.lexy@gmail.com)  
+📱 **Phone:** 404‑960‑0861  
+🐙 **GitHub:** <https://github.com/agraha91>  
 
-    <footer>
-      © <span id="year"></span> Alyssa Graham · Built with vanilla HTML/CSS · Hosted on GitHub Pages
-    </footer>
-  </div>
-
-  <script>
-    // Update year
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-</body>
-</html>
+<script>
+// no-op, keeps page self-contained
+</script>

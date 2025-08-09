@@ -1,7 +1,7 @@
 ---
 layout: default
- title: "Alyssa Graham · Data Scientist"
- description: "Portfolio of Alyssa Graham – Data Science projects, experience, and contact information."
+title: "Alyssa Graham · Data Scientist"
+description: "Portfolio of Alyssa Graham – Data Science projects, experience, and contact information."
 ---
 
 <!-- IMPORTANT: Use this file as index.md (Markdown), not index.html, so headings and lists render. -->
